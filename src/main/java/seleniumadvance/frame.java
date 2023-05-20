@@ -24,15 +24,7 @@ public class frame {
 		
 		
 		driver.switchTo().defaultContent();
-		
-	//	driver.switchTo().frame(2);
-		
-	//	driver.switchTo().frame(0);
-		
-//		driver.findElement(By.id("Click")).click();
-		
-	//	driver.switchTo().defaultContent();
-		
+	
 		driver.findElement(By.id("Click")).click();
 		
 		
